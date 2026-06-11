@@ -13,8 +13,7 @@ export default function About() {
 
           <p className="mt-5 text-lg text-slate-600">
             At Elite Construction, we specialize in residential and commercial renovation projects that combine quality craftsmanship with exceptional customer service. From kitchen and bathroom remodels to complete home renovations and custom construction projects, our team is committed to delivering results that exceed expectations.
-
-We believe every project deserves careful planning, transparent communication, and attention to detail. Whether you&apos;re renovating a single room or transforming an entire property, we work closely with you from concept to completion to bring your vision to life.
+            We believe every project deserves careful planning, transparent communication, and attention to detail. Whether you&apos;re renovating a single room or transforming an entire property, we work closely with you from concept to completion to bring your vision to life.
           </p>
         </div>
 
