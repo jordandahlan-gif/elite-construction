@@ -23,7 +23,7 @@ export default function FAQ() {
   ];
 
   return (
-    <section className="bg-slate-100 px-6 py-20 text-slate-900">
+    <section id="faq" className="bg-slate-100 px-6 py-20 text-slate-900">
       <div className="mx-auto max-w-4xl">
         <p className="mb-3 text-center text-sm font-semibold uppercase tracking-wide text-amber-600">
           FAQ

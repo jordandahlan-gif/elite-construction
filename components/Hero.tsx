@@ -31,13 +31,13 @@ export default function Hero() {
             </div>
           </div>
 
-          <div>
+          <div className="relative h-[500px] w-full">
             <Image
-              src="/construction.jpg"
-              alt="Professional construction worker"
-              width={800}
-              height={600}
-              className="rounded-3xl shadow-2xl"
+              src="/reno.jpg"
+              alt="Construction project"
+              fill
+              className="rounded-3xl object-cover"
+              priority
             />
           </div>
         </div>
