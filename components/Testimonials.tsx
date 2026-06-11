@@ -39,7 +39,7 @@ export default function Testimonials() {
               <div className="mb-4 text-amber-500">★★★★★</div>
 
               <p className="text-slate-600">
-                "{testimonial.text}"
+                &ldquo;{testimonial.text}&rdquo;
               </p>
 
               <p className="mt-6 font-semibold text-slate-900">
