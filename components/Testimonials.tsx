@@ -6,7 +6,7 @@ export default function Testimonials() {
     },
     {
       name: "David R.",
-      text: "We hired Elite Construction for a basement renovation and couldn't be happier with the results. The workmanship was excellent and the project stayed on schedule.",
+      text: "We hired Elite Construction for a basement renovation and couldn&apos;t be happier with the results. The workmanship was excellent and the project stayed on schedule.",
     },
     {
       name: "Jennifer L.",
