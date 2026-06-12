@@ -29,13 +29,13 @@ export default function Projects() {
 
         <div className="mt-12 grid gap-6 md:grid-cols-3">
           {projects.map((project) => (
-            <div key={project.title} className="overflow-hidden rounded-2xl bg-white shadow-sm">
-              <div className="relative h-64">
+            <div key={project.title} className="overflow-hidden rounded-2xl bg-white shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
+              <div className="relative h-64 overflow-hidden">
                 <Image
                   src={project.image}
                   alt={project.title}
                   fill
-                  className="object-cover"
+                  className="object-cover transition-transform duration-500 hover:scale-105"
                 />
               </div>
 

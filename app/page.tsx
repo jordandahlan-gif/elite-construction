@@ -11,6 +11,7 @@ import ServiceArea from "../components/ServiceArea";
 import HowItWorks from "../components/HowItWorks";
 import Projects from "../components/Projects";
 import TrustBar from "../components/Trustbar";
+import BeforeAfter from "../components/BeforeAfter";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Services />
       <HowItWorks />
       <Projects />
+      <BeforeAfter />
       <WhyChooseUs />
       <About />
       <Testimonials />

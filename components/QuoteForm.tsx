@@ -55,9 +55,9 @@ export default function QuoteForm() {
           </p>
 
           <div className="mt-8 space-y-3 text-slate-700">
-            <p>📞 (416) 555-0199</p>
-            <p>✉️ info@eliteconstruction.ca</p>
-            <p>📍 Serving Toronto and the GTA</p>
+            <p>✓ Free project estimates</p>
+            <p>✓ Clear timelines and upfront communication</p>
+            <p>✓ Residential and commercial renovation support</p>
           </div>
         </div>
 
