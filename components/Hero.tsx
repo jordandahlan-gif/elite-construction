@@ -3,13 +3,13 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className="px-6 py-24">
-        <div className="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2">
+        <div className="mx-auto grid max-w-7xl items-center gap-6 md:grid-cols-2">
           <div>
             <p className="mb-4 text-sm font-semibold uppercase tracking-wide text-blue-300">
               Toronto Construction & Renovation
             </p>
 
-            <h1 className="text-6xl font-bold leading-tight">
+            <h1 className="max-w-[700px] text-6xl font-bold leading-tight">
               Reliable construction services built to last.
             </h1>
 
@@ -31,12 +31,13 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="relative h-[500px] w-full">
+          <div className="rounded-[2rem] bg-white/10 p-2 shadow-2xl">
             <Image
               src="/reno.jpg"
-              alt="Construction project"
-              fill
-              className="rounded-3xl object-cover"
+              alt="Construction renovation project"
+              width={800}
+              height={600}
+              className="h-[560px] w-full rounded-[1.5rem] object-cover"
               priority
             />
           </div>
