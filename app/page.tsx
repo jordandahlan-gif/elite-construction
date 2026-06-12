@@ -12,6 +12,7 @@ import HowItWorks from "../components/HowItWorks";
 import Projects from "../components/Projects";
 import TrustBar from "../components/Trustbar";
 import BeforeAfter from "../components/BeforeAfter";
+import BackToTop from "../components/BackToTop";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
       <ServiceArea />
       <QuoteForm />
       <Footer />
+      <BackToTop />
     </main>
   );
 }
