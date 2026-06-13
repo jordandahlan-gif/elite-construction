@@ -1,25 +1,16 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="border-b border-white/10 bg-slate-950 text-white">
-      <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
-        <a href="#" className="flex items-center translate-y-1">
-          <Image
-            src="/logo2.png"
-            alt="Elite Construction"
-            width={220}
-            height={70}
-            priority
-          />
-        </a>
+    <nav className="border-b border-white/10">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
+        <h1 className="text-xl font-bold">Elite Construction</h1>
 
-        <div className="hidden items-center gap-8 md:flex">
+        <div className="hidden gap-6 md:flex">
           <a href="#services" className="hover:text-blue-300">Services</a>
           <a href="#about" className="hover:text-blue-300">About</a>
           <a href="#faq" className="hover:text-blue-300">FAQ</a>
@@ -28,7 +19,7 @@ export default function Navbar() {
 
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="text-2xl md:hidden"
+          className="md:hidden"
           aria-label="Toggle navigation menu"
         >
           ☰
