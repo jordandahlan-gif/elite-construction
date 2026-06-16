@@ -7,7 +7,7 @@ export default function BeforeAfter() {
   const [slider, setSlider] = useState(50);
 
   return (
-    <section className="bg-white px-6 py-20 text-slate-900">
+    <section className="bg-slate-50 px-6 py-20 text-slate-900">
       <div className="mx-auto max-w-6xl">
         <p className="mb-3 text-sm font-semibold uppercase tracking-wide text-amber-600">
           Before & After
